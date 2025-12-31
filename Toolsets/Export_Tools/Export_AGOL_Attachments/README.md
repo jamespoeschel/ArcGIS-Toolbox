@@ -1,1 +1,1 @@
-
+After exporting a feature layer from AGOL as a geodatabase, this tool exports all images to a specified folder using the _ATTACH Table as input. The photos will be named like ATT_NAME_Object_ID. Naming structure can be modified in the code. 
