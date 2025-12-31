@@ -1,1 +1,1 @@
-
+Gets the sum of total lengths of roads (line feature) within each polygon. The target field is in the polygon layer. Tool requires a calculated length field from the polyline layer and target field in polygon layer. 
