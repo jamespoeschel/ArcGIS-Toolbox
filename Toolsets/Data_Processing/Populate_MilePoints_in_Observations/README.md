@@ -1,1 +1,4 @@
+Add a Mile Points Field in a point feature and populate based on position along a study corridor
 
+This tool adds mile point data to observation points that lie along a study corridor. 
+Mile Points are added by generated two sets of points along the line: One being the user inputted distance interval, and the other being offset half that distance. The offset MPs are used to split the study corridor instead segments and the user inputted MP one is used to spatially join the MP values to the split lines. This way each line assumes the MP value of its center point MP value so observation points take the MP value that it is closest too. Snapped observation points are spatially joined to the split lines, then the MP values are joined to the original observation points. Intermediate data is then deleted.
